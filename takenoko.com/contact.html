@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>takenoko.com</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Original -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width: 767px)">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- wow js -->
+    <script src="/js/wow.min.js"></script>
+    <link rel="stylesheet" href="/css/animate.css">
+  </head>
+<body class="drawer drawer--right">
+  <header class="header">
+    <div class="header-inner inner">
+      <div class="header-logo">
+        <a href="#">
+          <img src="/img/takenoko-logo.png" alt="takenoko.com">
+        </a>
+      </div>
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav header-nav">
+        <ul class="drawer-menu header-nav-list">
+          <li class="header-nav-item"><a class="header-nav-item-link" href="#">Home</a></li>
+          <li class="header-nav-item"><a class="header-nav-item-link" href="#">About</a></li>
+          <li class="header-nav-item"><a class="header-nav-item-link" href="#">Work</a></li>
+          <li class="header-nav-item"><a class="header-nav-item-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="title-wrapper">
+      <h1 class="util-title">Contact</h1>
+      <div class="title-wrapper-picture">
+        <img src="img/email.png" alt="about">
+      </div>
+    </div>
+    <div class="breadcrumb inner">
+      <p class="breadcrumb-text">Home &gt; About</p>
+    </div>
+    <div class="contact-wrapper inner">
+      <p class="contact-top wow fadeIn" data-wow-delay=".3s">こちらは、Webサイト制作・ECサイト構築の<br class="is-pc">ご相談、ご依頼の窓口となります。</p>
+      <form id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSczGu9P_7JtzTbq9rB3ho9JRaqP0mrmdEAuCjNHPhUg7OYplA/formResponse" class="contact-form wow fadeIn" data-wow-delay=".3s" method="post">
+        <dl class="contact-list">
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              <p class="contact-item-title-left">お名前</p>
+            </dt>
+            <dd class="contact-item-input">
+              <input type="text" name="entry.963543399" required>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              <p class="contact-item-title-left">メールアドレス</p>
+            </dt>
+            <dd class="contact-item-input">
+              <input type="email" name="emailAddress" required>
+            </dd>
+          </div>
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              <p class="contact-item-title-left">お問い合わせ内容</p>
+            </dt>
+            <dd class="contact-item-input">
+              <textarea name="entry.93600595" required></textarea>
+            </dd>
+          </div>
+        </dl>
+        <div class="contact-footer">
+          <div class="contact-footer-submit">
+            <button class="util-link -submit" type="submit">送信する</button>
+          </div>
+        </div>
+      </form>
+      <div class="end-message">
+        <p id="js-success">お問い合わせありがとうございました!</p>
+        <a href="#" class="util-link">TOPに戻る</a>
+      </div>
+      
+      <p id="js-error" class="false-message -error">送信に失敗しました。</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-top-arrow"><i class="fas fa-arrow-alt-circle-up"></i></div>
+      <p class="footer-top-text">Back to Top</p>
+    </div>
+    <ul class="footer-nav-list">
+      <li class="footer-nav-item">
+        <a href="#" class="footer-nav-link">Home</a>
+      </li>
+      <li class="footer-nav-item">
+        <a href="#" class="footer-nav-link">About</a>
+      </li>
+      <li class="footer-nav-item">
+        <a href="#" class="footer-nav-link">Work</a>
+      </li>
+      <li class="footer-nav-item">
+        <a href="#" class="footer-nav-link">Contact</a>
+      </li>
+    </ul>
+    <p class="footer-copyrights"><small>takenoko.com All rights reserved.</small></p>
+  </footer>
+  <script src="/js/script.js"></script>
+</body>
+</html>
